@@ -7,12 +7,19 @@
 ``` bash
 ? the package manager: Yarn
 ? UI framework: None
-? custom server framework: Express
+? custom server framework: None
 ? Nuxt.js modules: Axios
-? linting tools: ESLint, Prettier, Lint staged files
+? linting tools: ESLint, StyleLint, Prettier, Lint staged files
 ? test framework: Jest
 ? rendering mode: Universal (SSR)
 ? development tools: jsconfig.json (Recommended for VS Code)
+```
+
+## Others Setting
+
+``` bash
+? CSS preprocessor: Sass (sass, sass-loader)
+? use Class-based: nuxt-property-decorator, vue-property-decorator
 ```
 
 ## Build Setup
