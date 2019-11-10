@@ -1,4 +1,6 @@
 import { Configuration } from '@nuxt/types'
+import Sass from 'sass'
+import Fiber from 'fibers'
 
 const nuxtConfig: Configuration = {
   mode: 'universal',
@@ -92,6 +94,14 @@ const nuxtConfig: Configuration = {
         removeRedundantAttributes: true,
         trimCustomFragments: true,
         useShortDoctype: true
+      }
+    },
+    loaders: {
+      scss: {
+        implementation: Sass,
+        sassOptions: {
+          fiber: Fiber
+        }
       }
     },
     /*

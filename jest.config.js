@@ -1,5 +1,4 @@
 module.exports = {
-  preset: 'ts-jest',
   moduleNameMapper: {
     '^~/(.*)$': '<rootDir>/src/$1'
   },
@@ -10,11 +9,10 @@ module.exports = {
   },
   globals: {
     'ts-jest': {
-      tsConfig: 'tsconfig.jest.json',
+      tsConfig: 'tsconfig.json',
       diagnostics: false
     },
     'vue-jest': {
-      tsConfig: 'tsconfig.jest.json',
       babelConfig: false
     }
   },
@@ -23,6 +21,4 @@ module.exports = {
     '<rootDir>/src/components/**/*.vue',
     '<rootDir>/src/pages/**/*.vue'
   ]
-  // coverageDirectory: '__coverage__',
-  // coverageReporters: ['html', 'text-summary']
 }

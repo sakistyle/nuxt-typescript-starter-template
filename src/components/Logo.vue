@@ -14,7 +14,7 @@ import { Vue, Component } from 'vue-property-decorator'
 export default class Logo extends Vue {}
 </script>
 
-<style>
+<style lang="scss">
 .VueToNuxtLogo {
   display: inline-block;
   position: relative;
@@ -31,39 +31,39 @@ export default class Logo extends Vue {}
   left: 0;
   width: 0;
   height: 0;
-}
 
-.Triangle--one {
-  border-right: 105px solid transparent;
-  border-bottom: 180px solid #41b883;
-  border-left: 105px solid transparent;
-}
+  &--one {
+    border-right: 105px solid transparent;
+    border-bottom: 180px solid #41b883;
+    border-left: 105px solid transparent;
+  }
 
-.Triangle--two {
-  top: 30px;
-  left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
-  border-right: 87.5px solid transparent;
-  border-bottom: 150px solid #3b8070;
-  border-left: 87.5px solid transparent;
-}
+  &--two {
+    top: 30px;
+    left: 35px;
+    animation: goright 0.5s linear forwards 3.5s;
+    border-right: 87.5px solid transparent;
+    border-bottom: 150px solid #3b8070;
+    border-left: 87.5px solid transparent;
+  }
 
-.Triangle--three {
-  top: 60px;
-  left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
-  border-right: 70px solid transparent;
-  border-bottom: 120px solid #35495e;
-  border-left: 70px solid transparent;
-}
+  &--three {
+    top: 60px;
+    left: 35px;
+    animation: goright 0.5s linear forwards 3.5s;
+    border-right: 70px solid transparent;
+    border-bottom: 120px solid #35495e;
+    border-left: 70px solid transparent;
+  }
 
-.Triangle--four {
-  top: 120px;
-  left: 70px;
-  animation: godown 0.5s linear forwards 3s;
-  border-right: 35px solid transparent;
-  border-bottom: 60px solid #fff;
-  border-left: 35px solid transparent;
+  &--four {
+    top: 120px;
+    left: 70px;
+    animation: godown 0.5s linear forwards 3s;
+    border-right: 35px solid transparent;
+    border-bottom: 60px solid #fff;
+    border-left: 35px solid transparent;
+  }
 }
 
 @keyframes turn {
