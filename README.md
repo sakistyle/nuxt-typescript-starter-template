@@ -12,12 +12,7 @@
 ? linting tools: ESLint, StyleLint, Prettier, Lint staged files
 ? test framework: Jest
 ? rendering mode: Universal (SSR)
-? development tools: jsconfig.json (Recommended for VS Code)
-```
-
-## Others Setting
-
-``` bash
+? development tools: tsconfig.json (Recommended for VS Code)
 ? CSS preprocessor: Sass (sass, sass-loader)
 ? use Class-based: nuxt-property-decorator, vue-property-decorator
 ```
